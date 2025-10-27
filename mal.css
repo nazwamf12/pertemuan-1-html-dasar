@@ -1,0 +1,101 @@
+/* Reset dasar */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Warna latar belakang */
+body {
+  background-color: #f2f2f2;
+  display: flex;
+  justify-content: center;
+  padding: 40px 20px;
+}
+
+/* Kontainer utama */
+.container {
+  max-width: 700px;
+  width: 100%;
+}
+
+/* Foto profil */
+.profile {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.profile-img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 4px solid #4f46e5;
+  object-fit: cover;
+}
+
+/* Kartu umum */
+.card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+/* Judul bagian */
+.title {
+  color: #4f46e5;
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+/* Teks paragraf */
+p {
+  color: #111;
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+
+/* Daftar proyek */
+.projects {
+  list-style: none;
+}
+
+.projects li {
+  background-color: #e6e6e6;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  padding: 8px;
+}
+
+.projects a {
+  text-decoration: none;
+  color: #111;
+  display: block;
+}
+
+.projects li:hover {
+  background-color: #c7d2fe;
+}
+
+/* Tautan */
+a {
+  color: #4f46e5;
+}
+
+/* Responsif */
+@media (max-width: 600px) {
+  body {
+    padding: 20px;
+  }
+
+  .card {
+    padding: 15px;
+  }
+
+  .title {
+    font-size: 20px;
+  }
+}
